@@ -1,0 +1,88 @@
+.navbar .navbar-inverse{
+    color: white !important;
+}
+
+body{
+    /*background-color: #563d7c*/
+}
+
+input.ng-invalid.ng-touched {
+  border: 1px solid red;
+}
+
+.tricolor{
+    position: fixed;
+    top: 0px;
+    border-top: 3px solid darkorange;
+    border-bottom: 2px solid white;
+    box-shadow: 0px 2px 5px lightgreen;
+    width: 100%;
+    left: 0px;
+}
+
+.skmHeader{
+    position: fixed;
+    padding: 0px;
+    margin: 0px;
+    top: 10px;
+    left: 2px;
+    right: 2px;
+    line-height: 2em;
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;
+    border: 1px solid silver
+}
+
+.flex-box{
+    display: -webkit-flex;
+   display: flex;
+   -webkit-flex-direction: row;
+   flex-direction: row;    
+}
+
+.right-align{
+    margin-right: auto
+}
+
+.left-align{
+    margin-left: auto
+}
+
+.center-align{
+    margin: auto    
+}
+
+.padding-30{
+    padding: 30px
+}
+
+img.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+
+.link-box{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .23em;
+    padding-bottom: .23em;
+}
+
+.padding-left-10{
+    padding-left: 10px
+}
+
+.padding-right-10{
+    padding-right: 10px
+}
+
+.padding-top-10{
+    padding-top: 10px
+}
+
+.padding-bottom-10{
+    padding-bottom: 10px
+}
