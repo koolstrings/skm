@@ -1,22 +1,24 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from "./app.component";
 import { AuthComponent } from "./user/auth.component";
 import { skmComponentHeader } from "./header/header.component";
 import { skmAboutComponent } from "./base/info/about/about.component";
 import { skmFooterComponent } from "./footer/footer.component";
-import { skmBaseComponent } from "./base/base.component";
+import { skmHomeComponent } from "./base/home.component";
 import { skmMenuComponent } from "./base/menu/menu.component";
 import { skmCarouselComponent } from "./base/carousel/carousel.component";
 import { skmAdBlockComponent } from "./base/adBlock/adblock.component";
 import { skmNewsComponent } from "./base/news/news.component"
+import { skmRouting } from "./app.routing"
 
 @NgModule({
     declarations: [
-        AppComponent, AuthComponent, skmComponentHeader, skmAboutComponent, skmFooterComponent, skmBaseComponent, skmMenuComponent, skmCarouselComponent, skmAdBlockComponent, skmNewsComponent
+        AppComponent, AuthComponent, skmComponentHeader, skmAboutComponent, skmFooterComponent, skmHomeComponent, skmMenuComponent, skmCarouselComponent, skmAdBlockComponent, skmNewsComponent
     ],
-    imports: [BrowserModule],
+    imports: [BrowserModule, FormsModule, skmRouting],
     bootstrap: [AppComponent]
 })
 export class AppModule {
