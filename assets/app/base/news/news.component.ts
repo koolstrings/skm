@@ -22,6 +22,7 @@ import { Component } from '@angular/core'
  
 export class skmNewsComponent{
     closeBanner(){
-        document.getElementById('announcementDiv').style.display = "none"
+        //document.getElementById('announcementDiv').style.display = "none";
+        //document.getElementById("news-btn")[0]['style']['display'] = "none"
      }
 }

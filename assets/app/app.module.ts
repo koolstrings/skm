@@ -14,9 +14,18 @@ import { skmAdBlockComponent } from "./base/adBlock/adblock.component";
 import { skmNewsComponent } from "./base/news/news.component"
 import { skmRouting } from "./app.routing"
 
+import { skmLoginComponent } from "./user/login.component";
+import { skmLogOutComponent } from "./user/logout.component";
+import { skmSignUpComponent } from "./user/signup.component";
+
+import { skmInProgressPage } from "./inprogress.component";
+
 @NgModule({
     declarations: [
-        AppComponent, AuthComponent, skmComponentHeader, skmAboutComponent, skmFooterComponent, skmHomeComponent, skmMenuComponent, skmCarouselComponent, skmAdBlockComponent, skmNewsComponent
+        AppComponent, AuthComponent, skmComponentHeader, skmAboutComponent, 
+        skmFooterComponent, skmHomeComponent, skmMenuComponent, skmCarouselComponent, 
+        skmAdBlockComponent, skmNewsComponent, skmLogOutComponent, skmLoginComponent,
+        skmSignUpComponent, skmInProgressPage
     ],
     imports: [BrowserModule, FormsModule, skmRouting],
     bootstrap: [AppComponent]
